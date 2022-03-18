@@ -7,7 +7,7 @@
 * __Discord:__ Evgeny#2824    
 * __E-mail:__ evgeny.kolkovski@gmail.com    
 * __Phone:__ +375 29 614 52 66   
-* __Telegram:__ @Evgeny0909s
+* __Telegram:__ @Evgeny0909
 
 ## __About Me__
 ---
