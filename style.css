@@ -1,0 +1,193 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth; 
+}
+.wrapper {
+  min-height: 100%;
+	overflow: hidden;
+  display: flex;
+	flex-direction: column;
+}
+.conteiner {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+@media (max-width:1440px) {
+  .conteiner {
+    max-width: 970px;
+  }
+}
+@media (max-width:992px) {
+  .conteiner {
+    max-width: 750px;
+  }
+}
+@media (max-width:767px) {
+  .conteiner {
+    max-width: none;
+  }
+}
+.nav {
+  background-color: gray;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav-list a {
+  color: black;
+  font-size: 24px;
+}
+.nav-list a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  
+}
+.main {
+  flex: 1 1 auto;
+}
+.name_block_row {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px 50px 20px 0;
+  flex-wrap: wrap;
+}
+.avatar_image {
+  order: 2;
+}
+.image_foto {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+.name_list h1 {
+  font-size: 46px;
+  padding-bottom: 15px;
+}
+.name_list h4 {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.blocks {
+  background-color: grey;
+}
+.blocks_row {
+  display: flex;
+  padding-top: 30px;
+  margin: 0px -10px;
+  flex-wrap: wrap;
+}
+.vertical_column {
+  flex: 0 1 50%;
+  padding: 0px 50px;
+  display: flex;
+  margin-bottom: 30px;
+}
+.vertical_item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 5px;
+  flex: 1 1 auto;
+}
+.block_title {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding: 12px 0;
+}
+.contacts-list li:nth-child(1) {
+  background: url(.//assets/img/location-icon.png) 3px 2px no-repeat;
+  background-size: 25px;
+  
+ }
+ .contacts-list li:nth-child(2) {
+  background: url(.//assets/img/email-icon.png) no-repeat;
+  background-size: 30px;
+ }
+ .contacts-list li:nth-child(3) {
+  background: url(.//assets/img/github-icon.png) 2px 2px no-repeat;
+  background-size: 25px;
+ }
+ .contacts-list li:nth-child(4) {
+  background: url(.//assets/img/telegram-icon.png) 2px no-repeat;
+  background-size: 25px;
+ }
+.contacts-list li:nth-child(5) {
+ background: url(.//assets/img/phone-icon.png) 2px no-repeat;
+ background-size: 25px;
+}
+.contacts-list a, span {
+  font-size: 24px;
+  color: grey;
+  margin-left: 40px;
+}
+.list__checkers li {
+background: url(.//assets/img/checkmark_icon_125020.png) no-repeat;
+background-size: 24px;
+margin: 0px 0px 0px 0px;
+}
+.skils-item {
+  padding-left: 30px;
+}
+.education-item {
+  padding-left: 30px;
+}
+.text_column_item {
+  font-size: 24px;
+  color: grey;
+  padding: 20px;
+  line-height: 30px;
+}
+.footer_raw {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer_year {
+  width: 180px;
+}
+.github {
+  width: 180px;
+}
+.rs-logo {
+  width: 180px;
+  height: 50px;
+}
+.projectName {
+  font-size: 24px;
+  color: grey;
+}
+.projectName:hover {
+  text-decoration: underline;
+  color: black;
+}
